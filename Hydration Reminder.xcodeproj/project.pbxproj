@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		407827F526E8B37300225A31 /* SingleListItemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407827F426E8B37300225A31 /* SingleListItemUI.swift */; };
+		40811D4026F23758002D04B4 /* InfoSheet().swift in Sources */ = {isa = PBXBuildFile; fileRef = 40811D3F26F23758002D04B4 /* InfoSheet().swift */; };
+		408356BB26E78C9D00E27ADF /* DrinkingCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408356BA26E78C9D00E27ADF /* DrinkingCalculation.swift */; };
+		4087764526ECE5430063E41F /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 4087764426ECE5430063E41F /* SwiftUICharts */; };
+		4087764726ECF4D40063E41F /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087764626ECF4D40063E41F /* Chart.swift */; };
+		40877B2E26F1F17500C70F7E /* GoalChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40877B2D26F1F17500C70F7E /* GoalChange.swift */; };
+		408F463526EB703F003EBA61 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408F463426EB703F003EBA61 /* HealthKit.framework */; };
+		408F463726EB776C003EBA61 /* HealthStoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F463626EB776C003EBA61 /* HealthStoreData.swift */; };
+		408F463926EB853F003EBA61 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F463826EB853F003EBA61 /* DetailView.swift */; };
+		40952CCF26E3DCC3000125D7 /* Hydration_ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40952CCE26E3DCC3000125D7 /* Hydration_ReminderApp.swift */; };
+		40952CD126E3DCC3000125D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40952CD026E3DCC3000125D7 /* ContentView.swift */; };
+		40952CD326E3DCC5000125D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40952CD226E3DCC5000125D7 /* Assets.xcassets */; };
+		40952CD626E3DCC5000125D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40952CD526E3DCC5000125D7 /* Preview Assets.xcassets */; };
+		40952CDE26E3E7D0000125D7 /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40952CDD26E3E7CE000125D7 /* CircleProgress.swift */; };
+		40A3958126E7FB520023D590 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3958026E7FB520023D590 /* ListItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		407827F426E8B37300225A31 /* SingleListItemUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleListItemUI.swift; sourceTree = "<group>"; };
+		40811D3F26F23758002D04B4 /* InfoSheet().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoSheet().swift"; sourceTree = "<group>"; };
+		408356BA26E78C9D00E27ADF /* DrinkingCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkingCalculation.swift; sourceTree = "<group>"; };
+		4087764626ECF4D40063E41F /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		40877B2D26F1F17500C70F7E /* GoalChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalChange.swift; sourceTree = "<group>"; };
+		408F463226EB703D003EBA61 /* Hydration Reminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hydration Reminder.entitlements"; sourceTree = "<group>"; };
+		408F463426EB703F003EBA61 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		408F463626EB776C003EBA61 /* HealthStoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreData.swift; sourceTree = "<group>"; };
+		408F463826EB853F003EBA61 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		40952CCB26E3DCC3000125D7 /* Hydration Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydration Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40952CCE26E3DCC3000125D7 /* Hydration_ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydration_ReminderApp.swift; sourceTree = "<group>"; };
+		40952CD026E3DCC3000125D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40952CD226E3DCC5000125D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40952CD526E3DCC5000125D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40952CD726E3DCC5000125D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40952CDD26E3E7CE000125D7 /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
+		40A3958026E7FB520023D590 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40952CC826E3DCC3000125D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408F463526EB703F003EBA61 /* HealthKit.framework in Frameworks */,
+				4087764526ECE5430063E41F /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4081324826ED32E200D4263B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				40952CD026E3DCC3000125D7 /* ContentView.swift */,
+				4081324926ED332700D4263B /* HelperMainView */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		4081324926ED332700D4263B /* HelperMainView */ = {
+			isa = PBXGroup;
+			children = (
+				408356BA26E78C9D00E27ADF /* DrinkingCalculation.swift */,
+				40952CDD26E3E7CE000125D7 /* CircleProgress.swift */,
+				4081324B26ED341600D4263B /* SubView */,
+				40811D3F26F23758002D04B4 /* InfoSheet().swift */,
+			);
+			path = HelperMainView;
+			sourceTree = "<group>";
+		};
+		4081324A26ED337F00D4263B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40A3958026E7FB520023D590 /* ListItem.swift */,
+				408F463626EB776C003EBA61 /* HealthStoreData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4081324B26ED341600D4263B /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				408F463826EB853F003EBA61 /* DetailView.swift */,
+				4081324C26ED456A00D4263B /* HelperSubView */,
+				40877B2D26F1F17500C70F7E /* GoalChange.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		4081324C26ED456A00D4263B /* HelperSubView */ = {
+			isa = PBXGroup;
+			children = (
+				407827F426E8B37300225A31 /* SingleListItemUI.swift */,
+				4087764626ECF4D40063E41F /* Chart.swift */,
+			);
+			path = HelperSubView;
+			sourceTree = "<group>";
+		};
+		408F463326EB703F003EBA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				408F463426EB703F003EBA61 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40952CC226E3DCC3000125D7 = {
+			isa = PBXGroup;
+			children = (
+				40952CCD26E3DCC3000125D7 /* Hydration Reminder */,
+				408F463326EB703F003EBA61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40952CCC26E3DCC3000125D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40952CCB26E3DCC3000125D7 /* Hydration Reminder.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		40952CCD26E3DCC3000125D7 /* Hydration Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				40952CCE26E3DCC3000125D7 /* Hydration_ReminderApp.swift */,
+				4081324826ED32E200D4263B /* MainView */,
+				4081324A26ED337F00D4263B /* Model */,
+				40952CCC26E3DCC3000125D7 /* Products */,
+				40952CD226E3DCC5000125D7 /* Assets.xcassets */,
+				408F463226EB703D003EBA61 /* Hydration Reminder.entitlements */,
+				40952CD726E3DCC5000125D7 /* Info.plist */,
+				40952CD426E3DCC5000125D7 /* Preview Content */,
+			);
+			path = "Hydration Reminder";
+			sourceTree = "<group>";
+		};
+		40952CD426E3DCC5000125D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40952CD526E3DCC5000125D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40952CCA26E3DCC3000125D7 /* Hydration Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40952CDA26E3DCC5000125D7 /* Build configuration list for PBXNativeTarget "Hydration Reminder" */;
+			buildPhases = (
+				40952CC726E3DCC3000125D7 /* Sources */,
+				40952CC826E3DCC3000125D7 /* Frameworks */,
+				40952CC926E3DCC3000125D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hydration Reminder";
+			packageProductDependencies = (
+				4087764426ECE5430063E41F /* SwiftUICharts */,
+			);
+			productName = "Hydration Reminder";
+			productReference = 40952CCB26E3DCC3000125D7 /* Hydration Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40952CC326E3DCC3000125D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					40952CCA26E3DCC3000125D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 40952CC626E3DCC3000125D7 /* Build configuration list for PBXProject "Hydration Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40952CC226E3DCC3000125D7;
+			packageReferences = (
+				4087764326ECE5430063E41F /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 40952CCC26E3DCC3000125D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40952CCA26E3DCC3000125D7 /* Hydration Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40952CC926E3DCC3000125D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40952CD626E3DCC5000125D7 /* Preview Assets.xcassets in Resources */,
+				40952CD326E3DCC5000125D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40952CC726E3DCC3000125D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408F463726EB776C003EBA61 /* HealthStoreData.swift in Sources */,
+				40811D4026F23758002D04B4 /* InfoSheet().swift in Sources */,
+				408F463926EB853F003EBA61 /* DetailView.swift in Sources */,
+				40877B2E26F1F17500C70F7E /* GoalChange.swift in Sources */,
+				40A3958126E7FB520023D590 /* ListItem.swift in Sources */,
+				40952CD126E3DCC3000125D7 /* ContentView.swift in Sources */,
+				408356BB26E78C9D00E27ADF /* DrinkingCalculation.swift in Sources */,
+				4087764726ECF4D40063E41F /* Chart.swift in Sources */,
+				40952CCF26E3DCC3000125D7 /* Hydration_ReminderApp.swift in Sources */,
+				407827F526E8B37300225A31 /* SingleListItemUI.swift in Sources */,
+				40952CDE26E3E7D0000125D7 /* CircleProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40952CD826E3DCC5000125D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40952CD926E3DCC5000125D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40952CDB26E3DCC5000125D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hydration Reminder/Hydration Reminder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydration Reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LB4YX88K4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hydration Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hashir.Hydration-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40952CDC26E3DCC5000125D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hydration Reminder/Hydration Reminder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hydration Reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LB4YX88K4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hydration Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hashir.Hydration-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40952CC626E3DCC3000125D7 /* Build configuration list for PBXProject "Hydration Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40952CD826E3DCC5000125D7 /* Debug */,
+				40952CD926E3DCC5000125D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40952CDA26E3DCC5000125D7 /* Build configuration list for PBXNativeTarget "Hydration Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40952CDB26E3DCC5000125D7 /* Debug */,
+				40952CDC26E3DCC5000125D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4087764326ECE5430063E41F /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4087764426ECE5430063E41F /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4087764326ECE5430063E41F /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 40952CC326E3DCC3000125D7 /* Project object */;
+}
